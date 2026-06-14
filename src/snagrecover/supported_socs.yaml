@@ -83,6 +83,8 @@ tested:
         family: amlogic
   s905x:
         family: amlogic
+  qcomiq9075:
+        family: qcom
 untested:
   a10:
         family: sunxi
