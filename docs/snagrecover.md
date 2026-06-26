@@ -182,6 +182,8 @@ See the U-Boot RZ/N1 [documentation](https://docs.u-boot.org/en/latest/board/ren
 To set up the board in recovery mode, refer to the section *"Force the device
 into Emergency Download mode"* in the reference [documentation](https://docs.qualcomm.com/doc/80-70023-261/topic/iq9-ug-update-the-sw.html#panel-0-VWJ1bnR1tab$force-the-device-into-emergency-download-mode)
 
+**Note:** For the exact DIP switch position required to enable EDL mode, refer to the board schematic.
+
 ## Preparing recovery firmware
 
 Snagrecover requires firmware binaries to successfully recover the board. Each
@@ -621,10 +623,7 @@ configuration:
 
 **xbl:** XBL is a Qualcomm proprietary image, which can be downloaded using the following steps:
 
-1. Download the [ZIP](https://artifacts.codelinaro.org/artifactory/qli-ci/flashable-binaries/meta-qcom/iq-9075-evk/qli-2.0-rc3-qcom-multimedia-proprietary-image.zip) file
-2. Extract the ZIP file.
-3. Locate the XBL image at:
-   images/iq-9075-evk/qcom-multimedia-proprietary-image-iq-9075-evk/prog_snagboot_ddr.elf
+Please refer to the Qualcomm release details for this board
 
 configuration:
   * path
