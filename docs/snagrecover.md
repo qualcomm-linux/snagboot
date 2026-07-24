@@ -623,12 +623,16 @@ configuration:
 
 **xbl:** XBL is a Qualcomm proprietary image, which can be downloaded using the following steps:
 
-Please refer to the Qualcomm release details for this board
+1. Download the [ZIP](https://softwarecenter.qualcomm.com/nexus/generic/product/chip/tech-package/QCS9100_bootbinaries.1.0/qcs9100_bootbinaries.1.0-test-device-public/00133/QCS9100_bootbinaries.zip) file
+
+2. Extract the ZIP file and locate the XBL image:
+   prog_snagboot_ddr.elf
+
 
 configuration:
   * path
 
-**u-boot:** Can be generated using instructions for building the U-Boot image provided in U-Boot documentation: [Qualcomm Dragonwing](https://docs.u-boot.org/en/latest/board/qualcomm/dragonwing.html)
+**u-boot:** TBD: U-Boot support for Snagboot recovery is currently under upstream review
 
 configuration:
   * path
